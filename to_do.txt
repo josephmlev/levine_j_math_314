@@ -1,0 +1,23 @@
+np instlation 8/28/19:
+**********
+pandas is not compatiable with my version of np
+using pip install --upgrade numpy
+
+returns
+
+  Found existing installation: numpy 1.12.1
+    Uninstalling numpy-1.12.1:
+      Successfully uninstalled numpy-1.12.1
+Successfully installed numpy-1.17.1
+
+but 
+
+print(np.__version__)
+
+returns
+
+1.12.1
+
+Do I have two versions of np (pip and brew) as outlined at https://stackoverflow.com/questions/28517937/how-can-i-upgrade-numpy
+
+**********
